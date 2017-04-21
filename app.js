@@ -5,6 +5,7 @@ var Request = require('request');
 
 //Create an 'express' object
 var app = express();
+var port = process.env.PORT || 3000
 
 //Some Middleware - log requests to the terminal console
 app.use(logger('dev'));
@@ -33,5 +34,5 @@ app.get("*", function(req, res){
 });
 
 // Start the server
-app.listen(3000);
-console.log('Express started on port 3000');
+app.listen(port);
+console.log('Express started on port ' + port);
