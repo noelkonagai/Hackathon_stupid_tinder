@@ -20,6 +20,14 @@ The demo of our web application went like this. "We hired some of the best data 
 var binary = Math.floor((Math.random() * 100) + 1);
 ```
 
+```javascript
+if (binary % 2 == 0){
+/* executes the match case, appends the profile details to the tag with #matches-append */
+console.log("match");
+...
+}
+```
+
 ## Team members
 Noel Konagai - front-end and back-end
 Sara Bruszt - content writing and marketing
