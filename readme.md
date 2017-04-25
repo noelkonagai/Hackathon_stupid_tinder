@@ -16,7 +16,7 @@ Given the time constraints, our team used a Bootstrap of [UI Pasta](http://www.u
 
 The demo of our web application went like this. "We hired some of the best data scientists in the world that maximize your user experience by letting you match with up to 50% of the profiles! (Noel whispers to Sara) Don't tell them that we just used a random number generator." The clever variable that takes into account all the research done on quantifying love is below:
 
-```
+```javascript
 var binary = Math.floor((Math.random() * 100) + 1);
 ```
 
